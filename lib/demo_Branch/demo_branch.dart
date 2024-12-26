@@ -10,6 +10,15 @@ class DemoBranch extends StatefulWidget {
 class _DemoBranchState extends State<DemoBranch> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text("Demo Branch"),),);
+    return Scaffold(appBar: AppBar(title: Text("Demo Branch"),
+    ),
+    body: Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Text("Demo Branch"),
+        ],
+      ),)
+    );
   }
 }
