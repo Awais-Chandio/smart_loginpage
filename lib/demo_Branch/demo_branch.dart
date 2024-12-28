@@ -12,7 +12,7 @@ class _DemoBranchState extends State<DemoBranch> {
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(title: Text("Demo Branch"),
     ),
-    body: Center(
+    body: const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
